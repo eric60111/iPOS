@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-9.6.1_c9d3af4dba1183bbd0ff420cb6af5a6ecbe59686.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.6.1_31e3991a091c7c96a973dadb940beeb9cbd0ff94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.6.1_6604658d388a3f896735e3feafc39113e481e30a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_2c44808a031b3eeee7fa077402ef7a75a7c90724.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-connection-9.6.1_6f2feb31269fdad6ef4f70d83ae7c68993510e16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.6.1_701fee952c933b52a75bc7fd9626f8b06c59d8cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.6.1_58e12a30dde3d87a34f29819f22be7ecb496239c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-common-9.6.1_152285fd17b1ccd8940d696927c09305589e2f69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.6.1_0b2769d29b2441797cb94b88f8e2f3104b9b52a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-9.6.1_58ad7939ee4644f3cc45102df4356d7497b36513.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.6.1_58e12a30dde3d87a34f29819f22be7ecb496239c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_d59b3d571240b6f3ff44af576779f69280ebefda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.6.1_701fee952c933b52a75bc7fd9626f8b06c59d8cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_650b3a2b35c386da94c3d1c339a7f639ed2f5aa7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.6.1_6203b52fc3cf31a1e9f56b16ae5b894526261135.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_57099ca0232c270df964fd7d32ccf448633db87f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.6.1_adf59385be5fc34f6b9031c36416a6e922babe3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-module-9.6.1_0052a2c5cb877ec0e9549668221344489c417a9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-common-9.6.1_152285fd17b1ccd8940d696927c09305589e2f69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.6.1_6604658d388a3f896735e3feafc39113e481e30a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.6.1_31e3991a091c7c96a973dadb940beeb9cbd0ff94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-connection-9.6.1_6f2feb31269fdad6ef4f70d83ae7c68993510e16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_3e2b340e1cae15a95f3295fc29253763edf79359.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_ed75654c21302cc2ab5ae50d86e0ca20125ab2ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_2c44808a031b3eeee7fa077402ef7a75a7c90724.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-9.6.1_58ad7939ee4644f3cc45102df4356d7497b36513.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-9.6.1_c9d3af4dba1183bbd0ff420cb6af5a6ecbe59686.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.6.1_0b2769d29b2441797cb94b88f8e2f3104b9b52a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_650b3a2b35c386da94c3d1c339a7f639ed2f5aa7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_d59b3d571240b6f3ff44af576779f69280ebefda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_ed75654c21302cc2ab5ae50d86e0ca20125ab2ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_3e2b340e1cae15a95f3295fc29253763edf79359.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.6.1_adf59385be5fc34f6b9031c36416a6e922babe3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.6.1_6203b52fc3cf31a1e9f56b16ae5b894526261135.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_57099ca0232c270df964fd7d32ccf448633db87f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="C:\Users\kiec\Dropbox\iPOS\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-module-9.6.1_0052a2c5cb877ec0e9549668221344489c417a9e.jar" />
+    </item>
+
+</items>

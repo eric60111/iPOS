@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="600dp"
+    android:layout_height="800dp"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scrollView"
+        android:layout_weight="1"
+        android:fillViewport="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tv_PrintReview"
+            android:layout_weight="1"
+            android:text="測試店"
+            android:textSize="30dp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="@style/ButtonText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="列印"
+            android:id="@+id/btn_Print"
+            android:background="@drawable/btn_blue"
+            android:enabled="true"
+            android:layout_weight="3" />
+
+        <Button
+            style="@style/ButtonText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="離開"
+            android:id="@+id/btn_PrintCancel"
+            android:background="@drawable/btn_red"
+            android:enabled="true"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

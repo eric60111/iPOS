@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:divider="@drawable/separator_vertical"
+            android:showDividers="middle"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="加料管理"
+                    android:id="@+id/textView8"
+                    android:textSize="50dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="加料項目"
+                            android:id="@+id/textView10"
+                            android:textSize="35dp"
+                            android:gravity="center" />
+
+                        <Spinner
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/sp_AdditionList"
+                            android:spinnerMode="dropdown"
+                            android:layout_gravity="center"
+                            android:layout_weight="2" />
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/et_AdditionPriceModify"
+                            android:layout_weight="1"
+                            android:textSize="30dp"
+                            android:hint="加料價格"
+                            android:gravity="center"
+                            android:inputType="number" />
+
+                        <Button
+                            style="@style/ButtonText"
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:text="修改加料金額"
+                            android:id="@+id/btn_AdditionPriceModify"
+                            android:textSize="25dp"
+                            android:background="@drawable/btn_deepblue" />
+
+                        <Button
+                            style="@style/ButtonText"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:text="刪除加料"
+                            android:id="@+id/btn_AdditionDelete"
+                            android:textSize="25dp"
+                            android:background="@drawable/btn_red" />
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/et_AdditionName"
+                            android:layout_weight="1"
+                            android:textSize="30dp"
+                            android:hint="加料名稱"
+                            android:gravity="center" />
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/et_AdditionPrice"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="30dp"
+                            android:hint="加料價格"
+                            android:inputType="number" />
+
+                        <Button
+                            style="@style/ButtonText"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:text="新增加料"
+                            android:id="@+id/btn_AdditionAdd"
+                            android:textSize="25dp"
+                            android:background="@drawable/btn_blue" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="面板項目"
+                            android:id="@+id/textView15"
+                            android:textSize="35dp"
+                            android:gravity="center" />
+
+                        <Spinner
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/sp_AdditionMain01"
+                            android:spinnerMode="dropdown"
+                            android:layout_gravity="center"
+                            android:layout_weight="1" />
+
+                        <Spinner
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/sp_AdditionMain02"
+                            android:spinnerMode="dropdown"
+                            android:layout_gravity="center"
+                            android:layout_weight="1" />
+
+                        <Spinner
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/sp_AdditionMain03"
+                            android:spinnerMode="dropdown"
+                            android:layout_gravity="center"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="叮嚀管理"
+                    android:id="@+id/textView17"
+                    android:textSize="50dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="叮嚀項目"
+                            android:id="@+id/textView18"
+                            android:textSize="35dp"
+                            android:gravity="center" />
+
+                        <Spinner
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/sp_RemindList"
+                            android:spinnerMode="dropdown"
+                            android:layout_gravity="center"
+                            android:layout_weight="2" />
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/et_RemindPriceModify"
+                            android:layout_weight="1"
+                            android:textSize="30dp"
+                            android:hint="叮嚀價格"
+                            android:gravity="center"
+                            android:inputType="number" />
+
+                        <Button
+                            style="@style/ButtonText"
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:text="修改叮嚀金額"
+                            android:id="@+id/btn_RemindPriceModify"
+                            android:textSize="25dp"
+                            android:background="@drawable/btn_deepblue" />
+
+                        <Button
+                            style="@style/ButtonText"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:text="刪除叮嚀"
+                            android:id="@+id/btn_RemindDelete"
+                            android:textSize="25dp"
+                            android:background="@drawable/btn_red" />
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/et_RemindName"
+                            android:layout_weight="1"
+                            android:hint="叮嚀名稱"
+                            android:textSize="30dp"
+                            android:gravity="center" />
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/et_RemindPrice"
+                            android:layout_weight="1"
+                            android:hint="叮嚀價格"
+                            android:textSize="30dp"
+                            android:gravity="center"
+                            android:inputType="number" />
+
+                        <Button
+                            style="@style/ButtonText"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:text="新增叮嚀"
+                            android:id="@+id/btn_RemindAdd"
+                            android:textSize="25dp"
+                            android:background="@drawable/btn_blue" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="面板項目"
+                            android:id="@+id/textView19"
+                            android:textSize="35dp"
+                            android:gravity="center" />
+
+                        <Spinner
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/sp_RemindMain01"
+                            android:spinnerMode="dropdown"
+                            android:layout_gravity="center"
+                            android:layout_weight="1" />
+
+                        <Spinner
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/sp_RemindMain02"
+                            android:spinnerMode="dropdown"
+                            android:layout_gravity="center"
+                            android:layout_weight="1" />
+
+                        <Spinner
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/sp_RemindMain03"
+                            android:spinnerMode="dropdown"
+                            android:layout_gravity="center"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="產品管理"
+                    android:id="@+id/textView5"
+                    android:textSize="50dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="產品項目"
+                            android:id="@+id/textView16"
+                            android:textSize="35dp"
+                            android:gravity="center" />
+
+                        <Spinner
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/sp_ProductList"
+                            android:spinnerMode="dropdown"
+                            android:layout_gravity="center"
+                            android:layout_weight="2" />
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/et_ProductPriceModify"
+                            android:layout_weight="1"
+                            android:textSize="30dp"
+                            android:hint="產品價格"
+                            android:gravity="center"
+                            android:inputType="number" />
+
+                        <Button
+                            style="@style/ButtonText"
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:text="修改產品金額"
+                            android:id="@+id/btn_ProductPriceModify"
+                            android:textSize="25dp"
+                            android:background="@drawable/btn_deepblue" />
+
+                        <Button
+                            style="@style/ButtonText"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:text="下架"
+                            android:id="@+id/btn_ProductOff"
+                            android:textSize="25dp"
+                            android:background="@drawable/btn_red" />
+
+                        <Button
+                            style="@style/ButtonText"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:text="上架"
+                            android:id="@+id/btn_ProductOn"
+                            android:textSize="25dp"
+                            android:background="@drawable/btn_green" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="分類項目"
+                            android:id="@+id/textView9"
+                            android:textSize="35dp"
+                            android:gravity="center" />
+
+                        <Spinner
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/sp_ProductTypeList"
+                            android:spinnerMode="dropdown"
+                            android:layout_gravity="center"
+                            android:layout_weight="2" />
+
+                        <Button
+                            style="@style/ButtonText"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:text="分類下架"
+                            android:id="@+id/btn_TypeOff"
+                            android:textSize="25dp"
+                            android:background="@drawable/btn_red" />
+
+                        <Button
+                            style="@style/ButtonText"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:text="分類上架"
+                            android:id="@+id/btn_TypeOn"
+                            android:textSize="25dp"
+                            android:background="@drawable/btn_green" />
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/et_ProductName"
+                            android:layout_weight="1"
+                            android:textSize="30dp"
+                            android:hint="產品名稱"
+                            android:gravity="center" />
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/et_ProductPrice"
+                            android:layout_weight="1"
+                            android:textSize="30dp"
+                            android:gravity="center"
+                            android:hint="產品價格"
+                            android:inputType="number" />
+
+                        <Button
+                            style="@style/ButtonText"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:text="新增產品"
+                            android:id="@+id/btn_ProductAdd"
+                            android:textSize="25dp"
+                            android:background="@drawable/btn_blue" />
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/et_ProductTypeName"
+                            android:layout_weight="1"
+                            android:textSize="30dp"
+                            android:gravity="center"
+                            android:hint="分類名稱" />
+
+                        <Button
+                            style="@style/ButtonText"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:text="新增分類"
+                            android:id="@+id/btn_TypeAdd"
+                            android:textSize="25dp"
+                            android:background="@drawable/btn_blue" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="員工管理"
+                    android:id="@+id/textView13"
+                    android:textSize="50dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:padding="0dp" >
+
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/sp_EmployeeList"
+                        android:spinnerMode="dropdown"
+                        android:layout_gravity="center"
+                        android:layout_weight="1" />
+
+                    <Button
+                        style="@style/ButtonText"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:text="離職"
+                        android:id="@+id/btn_EmployeeOff"
+                        android:textSize="25dp"
+                        android:background="@drawable/btn_red" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et_EmployeeSN"
+                        android:layout_weight="1"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:hint="員工代號" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et_EmployeeName"
+                        android:layout_weight="1"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:hint="員工名稱" />
+
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/sp_EmployeeLevel"
+                        android:spinnerMode="dropdown"
+                        android:layout_gravity="center"
+                        android:layout_weight="1" />
+
+                    <Button
+                        style="@style/ButtonText"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:text="新增員工"
+                        android:id="@+id/btn_EmployeeAdd"
+                        android:textSize="25dp"
+                        android:background="@drawable/btn_blue" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="分店管理"
+                    android:id="@+id/textView11"
+                    android:textSize="50dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="尚未開放此功能"
+                        android:id="@+id/textView12"
+                        android:textSize="35dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

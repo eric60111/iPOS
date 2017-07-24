@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">iPOS</string>
+    <bool name="btn_addition_enable">false</bool>
+    <bool name="btn_number_enable">false</bool>
+    <bool name="btn_control_enable">false</bool>
+    <integer name="dialog_setting_line_height">70</integer>
+</resources>

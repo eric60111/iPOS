@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="500dp"
+    android:layout_height="250dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XX"
+            android:id="@+id/tv_Employee"
+            android:textSize="60dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打卡"
+            android:id="@+id/textView21"
+            android:textSize="60dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            style="@style/ButtonText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="上班"
+            android:id="@+id/btn_onWork"
+            android:background="@drawable/btn_blue"
+            android:enabled="true"
+            android:layout_weight="1"
+            android:textSize="50dp" />
+
+        <Button
+            style="@style/ButtonText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="下班"
+            android:id="@+id/btn_offWork"
+            android:background="@drawable/btn_red"
+            android:enabled="true"
+            android:layout_weight="1"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+</LinearLayout>

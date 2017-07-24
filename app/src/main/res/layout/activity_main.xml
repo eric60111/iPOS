@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:divider="@drawable/separator"
+    android:showDividers="middle"
+    tools:context="wmc.kuasmis.edu.pos.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:divider="@drawable/separator_vertical"
+        android:showDividers="middle"
+        android:layout_width="550dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="["
+                android:textSize="50dp"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="鳳山店"
+                android:id="@+id/tv_Area"
+                android:textSize="50dp"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_Personnel"
+                android:textSize="50dp"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="] 編號："
+                android:textSize="50dp"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/tv_SerialNumber"
+                android:textSize="50dp"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lv_HolderList"
+                android:layout_gravity="right"
+                android:choiceMode="singleChoice" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="刪菜"
+                        android:id="@+id/btn_DEL"
+                        android:background="@drawable/btn_purple"
+                        style="@style/ButtonText"
+                        android:layout_weight="1"
+                        android:enabled="@bool/btn_control_enable" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="清空"
+                        android:id="@+id/btn_CLS"
+                        android:background="@drawable/btn_red"
+                        style="@style/ButtonText"
+                        android:layout_weight="1"
+                        android:enabled="@bool/btn_control_enable" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="設定"
+                        android:id="@+id/btn_SET"
+                        android:background="@drawable/btn_blue"
+                        style="@style/ButtonText"
+                        android:layout_weight="1"
+                        android:enabled="false" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="招待"
+                        android:id="@+id/btn_FREE"
+                        android:background="@drawable/btn_green"
+                        style="@style/ButtonText"
+                        android:layout_weight="1"
+                        android:enabled="@bool/btn_control_enable" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                style="@style/ButtonText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="結帳"
+                android:id="@+id/btn_CHECK"
+                android:background="@drawable/btn_green"
+                android:layout_weight="1"
+                android:enabled="@bool/btn_control_enable" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:divider="@drawable/separator_vertical"
+        android:showDividers="middle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/ll_ProductType">
+
+        </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:id="@+id/ll_ProductItem">
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/et_HoldProductName"
+                        android:layout_weight="3"
+                        android:textSize="35dp"
+                        android:gravity="center"
+                        android:focusable="false" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/et_HoldProductNum"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:textSize="35dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:focusable="false" />
+                </LinearLayout>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_HoldProductAddition"
+                    android:textSize="35dp"
+                    android:gravity="center"
+                    android:focusable="false" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1">
+
+                    <Button
+                        style="@style/ButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="7"
+                        android:id="@+id/btn_NUM7"
+                        android:enabled="@bool/btn_number_enable"
+                        android:background="@drawable/btn_yellow"
+                        android:layout_weight="1" />
+
+                    <Button
+                        style="@style/ButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="8"
+                        android:id="@+id/btn_NUM8"
+                        android:enabled="@bool/btn_number_enable"
+                        android:background="@drawable/btn_yellow"
+                        android:layout_weight="1" />
+
+                    <Button
+                        style="@style/ButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="9"
+                        android:id="@+id/btn_NUM9"
+                        android:enabled="@bool/btn_number_enable"
+                        android:background="@drawable/btn_yellow"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1">
+
+                    <Button
+                        style="@style/ButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="4"
+                        android:id="@+id/btn_NUM4"
+                        android:enabled="@bool/btn_number_enable"
+                        android:background="@drawable/btn_yellow"
+                        android:layout_weight="1" />
+
+                    <Button
+                        style="@style/ButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="5"
+                        android:id="@+id/btn_NUM5"
+                        android:enabled="@bool/btn_number_enable"
+                        android:background="@drawable/btn_yellow"
+                        android:layout_weight="1" />
+
+                    <Button
+                        style="@style/ButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="6"
+                        android:id="@+id/btn_NUM6"
+                        android:enabled="@bool/btn_number_enable"
+                        android:background="@drawable/btn_yellow"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1">
+
+                    <Button
+                        style="@style/ButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="1"
+                        android:id="@+id/btn_NUM1"
+                        android:enabled="@bool/btn_number_enable"
+                        android:background="@drawable/btn_yellow"
+                        android:layout_weight="1" />
+
+                    <Button
+                        style="@style/ButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="2"
+                        android:id="@+id/btn_NUM2"
+                        android:enabled="@bool/btn_number_enable"
+                        android:background="@drawable/btn_yellow"
+                        android:layout_weight="1" />
+
+                    <Button
+                        style="@style/ButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="3"
+                        android:id="@+id/btn_NUM3"
+                        android:enabled="@bool/btn_number_enable"
+                        android:background="@drawable/btn_yellow"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1">
+
+                    <Button
+                        style="@style/ButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/btn_Clear"
+                        android:enabled="@bool/btn_number_enable"
+                        android:background="@drawable/btn_black"
+                        android:layout_weight="1"
+                        android:text="Clear" />
+
+                    <Button
+                        style="@style/ButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:id="@+id/btn_NUM0"
+                        android:enabled="@bool/btn_number_enable"
+                        android:background="@drawable/btn_yellow"
+                        android:layout_weight="1" />
+
+                    <Button
+                        style="@style/ButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/btn_AC"
+                        android:enabled="@bool/btn_number_enable"
+                        android:background="@drawable/btn_black"
+                        android:layout_weight="1"
+                        android:text="AC" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:id="@+id/ll_BottomControl">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:id="@+id/ll_AdditionOther">
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:id="@+id/ll_Remind" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:id="@+id/ll_Remark">
+
+                    <ToggleButton
+                        style="@style/ButtonText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tb_BigSize"
+                        android:background="@drawable/btn_blue"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:enabled="@bool/btn_addition_enable"
+                        android:textOff="加大"
+                        android:textOn="加大"
+                        android:checked="false" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="加辣程度"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="30dp"
+                        android:gravity="center" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:id="@+id/ll_Remark2">
+
+                        <ToggleButton
+                            style="@style/ButtonText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/tb_LHot"
+                            android:background="@drawable/btn_blue"
+                            android:layout_weight="1"
+                            android:enabled="@bool/btn_addition_enable"
+                            android:textOff="大辣"
+                            android:textOn="大辣"
+                            android:checked="false" />
+
+                        <ToggleButton
+                            style="@style/ButtonText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/tb_MHot"
+                            android:background="@drawable/btn_blue"
+                            android:layout_weight="1"
+                            android:enabled="@bool/btn_addition_enable"
+                            android:textOff="中辣"
+                            android:textOn="中辣"
+                            android:checked="false" />
+
+                        <ToggleButton
+                            style="@style/ButtonText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/tb_SHot"
+                            android:background="@drawable/btn_blue"
+                            android:layout_weight="1"
+                            android:enabled="@bool/btn_addition_enable"
+                            android:textOff="小辣"
+                            android:textOn="小辣"
+                            android:checked="false" />
+                    </LinearLayout>
+
+                    <Button
+                        style="@style/ButtonText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ENTER"
+                        android:id="@+id/btn_Enter"
+                        android:background="@drawable/btn_green"
+                        android:layout_weight="3"
+                        android:enabled="@bool/btn_addition_enable" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
